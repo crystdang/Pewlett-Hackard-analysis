@@ -51,9 +51,6 @@ CREATE TABLE titles (
 	
 );
 SELECT * FROM departments;
-<<<<<<< HEAD
+
 DROP TABLE titles CASCADE;
 
-=======
-DROP TABLE titles CASCADE;
->>>>>>> c2b8e2a32fb0b4a20936ee9b3f477738ec3e3d2f
