@@ -1,13 +1,3 @@
-#Adding additional files.
-Employee_Challenge_starter_code.sql
-tables.sql
-queries.sql
-schema.sql
-manager_info.csv
-retirement_by_department.csv
-retirement_info.csv
-emp_info.csv
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
