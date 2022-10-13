@@ -7,13 +7,14 @@ The purpose of this analysis was to prepare the HR analyst at Pewlett Hackard fo
 ### Results: 
 Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 
-**The following image provides the number of retiring employees by title:**
+*The following image provides the number of retiring employees by title:*
 ![This is an image](https://github.com/crystdang/Pewlett-Hackard-analysis/blob/main/Images/retiring_titles.png)
 
-- A significant amount of Senior Engineers and Senior Staff are retiring in comparison to other titles
+- A significant amount of Senior Engineers and Senior Staff are retiring in comparison to other titles which can be resolved by the promotion of (junior) Engineers and (junior) Staff
 - 
 
-**The following image provides the number of retiring employees elibile for the mentorship program using COUNT() from the mentorship_eligibility table:
+*The following image provides the number of retiring employees elibile for the mentorship program using COUNT() from the mentorship_eligibility table:*
+
 ![This is an image](https://github.com/crystdang/Pewlett-Hackard-analysis/blob/main/Images/total_eligible.png)
 
 - Of the 
@@ -21,8 +22,13 @@ Provide a bulleted list with four major points from the two analysis deliverable
 
 ### Summary: 
 Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+*How many roles will need to be filled as the "silver tsunami" begins to make an impact?*
+*The following image provides the total number of retiring titles using SUM() from the retiring_titles table:*
+![This is an image](https://github.com/crystdang/Pewlett-Hackard-analysis/blob/main/Images/total_retiring.png)
+
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+1549 eligible
+
 
 Each section has a heading and subheading. (2 pt)
 
