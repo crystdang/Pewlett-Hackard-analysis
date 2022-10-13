@@ -6,17 +6,19 @@ The purpose of this analysis was to prepare the HR analyst at Pewlett Hackard fo
 
 ### Results: 
 
-*The following image provides the number of retiring employees by title:*
+*The following image provides the number of retiring employees by title using the employees born in 1952-1955:*
 ![This is an image](https://github.com/crystdang/Pewlett-Hackard-analysis/blob/main/Images/retiring_titles.png)
 
-- Senior Engineers and Senior Staff are retiring significantly more than other junior roles
-- 
+- Senior Engineers and Senior Staff are retiring significantly more than other roles, especially in comparison to junior roles
+- Though 2 Managers seems like a low number, it is revealed that only 9 total Managers are employed, making up almost a quarter of the management team
 
-*The following image provides the number of retiring employees eligible for the mentorship program using COUNT() from the mentorship_eligibility table:*
 
-![This is an image](https://github.com/crystdang/Pewlett-Hackard-analysis/blob/main/Images/total_eligible.png)
+*The following image provides the breakdown of mentorship eligible titles using COUNT() and GROUP BY from the mentorship_eligibility table and the birth date of 1965:*
 
-- Of the 
+![This is an image](https://github.com/crystdang/Pewlett-Hackard-analysis/blob/main/Images/mentorship_titles.png)
+
+- The mentorship requirement is of only those born in the year 1965, resulting in a low number of retirement-ready eligible mentors compared to those retiring
+
 
 
 ### Summary: 
@@ -30,8 +32,7 @@ The purpose of this analysis was to prepare the HR analyst at Pewlett Hackard fo
 1549 eligible
 72458 retiring
 Most of the retiring employees are senior titles, which can be resolved by the promotion of (junior) Engineers and (junior) Staff.
-*The following image provides the breakdown of mentorship elibile titles using COUNT() and GROUP BY from the mentorship_eligibility table:*
-![This is an image](https://github.com/crystdang/Pewlett-Hackard-analysis/blob/main/Images/mentorship_titles.png)
+
 
 *The following image provides the breakdown of current active titles using COUNT() and GROUP BY where to_date is '9999-01-01' of from the titles table:*
 
@@ -39,4 +40,7 @@ Most of the retiring employees are senior titles, which can be resolved by the p
 ![This is an image](https://github.com/crystdang/Pewlett-Hackard-analysis/blob/main/Images/current_titles.png)
 
 
+*The following image provides the total of mentorship elibile titles using COUNT() and GROUP BY from the mentorship_eligibility table:*
+
+![This is an image](https://github.com/crystdang/Pewlett-Hackard-analysis/blob/main/Images/total_eligible.png)
 33118
