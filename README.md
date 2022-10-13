@@ -33,7 +33,7 @@ Most of the retiring employees are senior titles, which can be resolved by the p
 *The following image provides the breakdown of mentorship elibile titles using COUNT() and GROUP BY from the mentorship_eligibility table:*
 ![This is an image](https://github.com/crystdang/Pewlett-Hackard-analysis/blob/main/Images/mentorship_titles.png)
 
-*The following image provides the breakdown of current active titles using COUNT() and GROUP BY through INNER JOIN of the current_emp and titles table:*
+*The following image provides the breakdown of current active titles using COUNT() and GROUP BY where to_date is '9999-01-01' of from the titles table:*
 
 
 ![This is an image](https://github.com/crystdang/Pewlett-Hackard-analysis/blob/main/Images/current_titles.png)
